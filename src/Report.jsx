@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import styles from "./FleetOwnerTripPaymentForm.module.css";
 // Use the environment variable for SheetDB API URL
-const APPS_SCRIPT_URL = process.env.REACT_APP_SHEETDB_EARNINGS_URL;
+const APPS_SCRIPT_URL = "https://sheetdb.io/api/v1/hbm0l5jjta0ls";
   // Save last day's report to SheetDB (if not already present)
   async function saveLastDayReport() {
     if (!data.length) return alert("No data to save.");

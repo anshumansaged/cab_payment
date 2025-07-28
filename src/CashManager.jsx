@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const SHEETDB_CASH_URL = process.env.REACT_APP_SHEETDB_CASH_URL;
+const SHEETDB_CASH_URL = "https://sheetdb.io/api/v1/9w2v6v7w2v6v7";
 const drivers = ["Vivek Bali", "Vikash Yadav", "Chhotelal Yadav"];
 
 
