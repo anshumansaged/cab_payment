@@ -193,7 +193,7 @@ export default function FleetOwnerTripPaymentForm() {
     window.open(whatsappUrl, "_blank");
   }
 
-const SHEETDB_API_URL = process.env.REACT_APP_SHEETDB_EARNINGS_URL;
+const SHEETDB_API_URL = "https://sheetdb.io/api/v1/hbm0l5jjta0ls";
   async function handleSaveSheetDB() {
     if (!canCallSave()) {
       alert("❌ Monthly save quota reached (100 calls). Please try again next month.");
