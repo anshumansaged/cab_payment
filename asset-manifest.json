@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cab_payment/static/css/main.80b49436.css",
-    "main.js": "/cab_payment/static/js/main.26825673.js",
+    "main.js": "/cab_payment/static/js/main.3d6f4331.js",
     "index.html": "/cab_payment/index.html",
     "main.80b49436.css.map": "/cab_payment/static/css/main.80b49436.css.map",
-    "main.26825673.js.map": "/cab_payment/static/js/main.26825673.js.map"
+    "main.3d6f4331.js.map": "/cab_payment/static/js/main.3d6f4331.js.map"
   },
   "entrypoints": [
     "static/css/main.80b49436.css",
-    "static/js/main.26825673.js"
+    "static/js/main.3d6f4331.js"
   ]
 }
