@@ -62,24 +62,6 @@ This project is a modern, branded cab fleet management dashboard for MVLT (Maa V
 2. **Cash Manager**: Accountants can batch enter cash transactions for multiple drivers.
 3. **Reports**: View daily/monthly reports, with data cached for performance.
 
-## Data Flow
-- All trip and cash data is POSTed to SheetDB, which syncs with a Google Sheet.
-- Reports are fetched from SheetDB and displayed in the dashboard.
 
-## SheetDB API
-- The SheetDB API URL is hardcoded for simplicity: `https://sheetdb.io/api/v1/hbm0l5jjta0ls`
-- Data columns: `type`, `driver`, `amount`, `date`, `accountant_type`, `note`, etc.
-
-## Deployment
-- Automated via GitHub Actions to [https://anshumansaged.github.io/](https://anshumansaged.github.io/)
-- Push to `main` branch triggers deployment.
-
-## Security Note
-- The SheetDB API URL is public in the frontend. For sensitive use, consider backend proxying or environment variables.
-
-## Credits
-- UI/UX inspired by AntStack and modern SaaS dashboards.
-- Developed for MVLT (Maa Vaibhav Laxami Transport).
 
 ---
-For any issues or feature requests, please open an issue on the [GitHub repo](https://github.com/anshumansaged/cab_payment).
