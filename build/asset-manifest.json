@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cab_payment/static/css/main.80b49436.css",
+    "main.js": "/cab_payment/static/js/main.6bad310c.js",
+    "index.html": "/cab_payment/index.html",
+    "main.80b49436.css.map": "/cab_payment/static/css/main.80b49436.css.map",
+    "main.6bad310c.js.map": "/cab_payment/static/js/main.6bad310c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80b49436.css",
+    "static/js/main.6bad310c.js"
+  ]
+}
